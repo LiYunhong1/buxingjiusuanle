@@ -1,0 +1,43 @@
+{
+  "name": "h5",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "智能报表系统",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "王顺能 <1217395844@qq.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@jiaminghi/data-view": "^2.8.3",
+    "@quasar/extras": "^1.7.0",
+    "axios": "^0.18.1",
+    "echarts": "^4.7.0",
+    "element-resize-detector": "^1.2.1",
+    "js-file-download": "^0.4.11",
+    "jsplumb": "^2.12.14",
+    "lodash": "^4.17.15",
+    "md5": "^2.2.1",
+    "quasar": "^1.10.5",
+    "vue-i18n": "^8.0.0",
+    "vuedraggable": "^2.23.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.8.4",
+    "fibers": "^5.0.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
